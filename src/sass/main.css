@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap");
+@use 'variables' {}main a {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 25px;
+  border: solid 1px;
+  width: 20vh;
+  border-radius: 1vh;
+}
+
+main a:hover {
+  background-color: white;
+  color: black;
+  border: solid 1px white;
+}
+
+main h2 {
+  font-family: 'Hubballi', cursive;
+  font-weight: bold;
+  font-size: 45px;
+  color: black;
+  background: white;
+  border-radius: 2vh;
+}
+
+.gallery-card {
+  margin-top: 8vh;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid 1px;
+  border-radius: 1vh;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery-card:hover {
+  border: solid 1px white;
+}
+
+#card-1 {
+  background: url("../img/animais.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-1:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-2 {
+  background: url("../img/arquitetura.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-2:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-3 {
+  background: url("../img/cidade.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-3:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-4 {
+  background: url("../img/decoracao.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-4:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-5 {
+  background: url("../img/esportes.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-5:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-6 {
+  background: url("../img/natureza.jpg");
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-6:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-7 {
+  background: url("../img/paisagem.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-7:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-8 {
+  background: url("../img/pessoas.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-8:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+
+#card-9 {
+  background: url("../img/refeicoes.jpg");
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#card-9:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100vh;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+.menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+#dropdow {
+  display: none;
+}
+
+.drop {
+  background-color: #ffff;
+  width: 6.5vh;
+  height: 6vh;
+  margin: 1vh;
+  cursor: pointer;
+  border-radius: 1vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drop:hover .line {
+  background-color: #eeb05f;
+}
+
+.line {
+  background-color: #f58b00;
+  width: 5vh;
+  height: .6vh;
+  border-radius: 1vh;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=drop.css.map */

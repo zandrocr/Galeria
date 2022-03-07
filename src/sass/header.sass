@@ -1,0 +1,44 @@
+@import 'variables'
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Hubballi&display=swap')
+
+header
+  align-items: center
+  background: $bg-color
+
+  .menu
+    border-radius: 1vh
+
+  .line
+    background: black
+    width: 6vh
+    height: 1vh
+    margin: 1vh
+    border-radius: 1vh
+
+  .logo
+    font-size: 2em
+    font-family: 'Fredoka', sans-serif
+  a
+    font-family: 'Hubballi', cursive
+    font-size: 20px
+
+  .socialMedia
+    font-size: 15px
+
+  nav:nth-child(2)
+    font-weight: bold
+
+
+a
+  color: white
+  text-decoration: none
+  transition: .5s
+  &:hover
+    color: $second-color
+
+
+@media (max-width: 768px)
+  .menu
+    display: none
+    .link
+      display: none
